@@ -210,8 +210,13 @@ main{
   
     .hero h1 {
         font-size: 40px; 
+        line-height:60px;
     }
-  
+    .hero img {
+        width: 100%;
+        margin-bottom: 10px; 
+        height:auto;
+    }
     .gallery {
         grid-template-columns: 1fr; 
     }
